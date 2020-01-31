@@ -7,3 +7,7 @@ h1 {
 div {
   animation: mymove 5s infinite;
 }
+body {
+	background-color: #FFA900;
+
+}
