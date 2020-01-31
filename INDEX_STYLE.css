@@ -21,3 +21,7 @@ a {
 a:hover {
     color: black;
 }
+
+body {
+  text-align: center;
+}
