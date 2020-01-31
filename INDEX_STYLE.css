@@ -1,0 +1,9 @@
+
+
+h1 {
+  color: WHITE;
+}
+
+div {
+  animation: mymove 5s infinite;
+}
