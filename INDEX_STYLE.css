@@ -1,27 +1,11 @@
 
 
-h1 {
-  color: WHITE;
-}
+h1 { color: WHITE; }
 
-div {
-  animation: mymove 5s infinite;
-}
-body {
-	background-color: #FFA900;
+body { background-color: #FFA900; }
 
-}
+a { color: ORANGE; }
 
+a:hover { color: black;}
 
-a {
-    color: ORANGE;
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-}
-
-body {
-  text-align: center;
-}
+body { text-align: center; }
