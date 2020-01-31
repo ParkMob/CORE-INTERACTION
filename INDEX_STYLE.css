@@ -11,3 +11,13 @@ body {
 	background-color: #FFA900;
 
 }
+
+
+a {
+    color: ORANGE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
