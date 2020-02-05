@@ -4,13 +4,13 @@ h1 { color: WHITE; }
 
 body { background-color: #FFA900; }
 
-a { color: ORANGE; }
+a { color:orange; }
 
 a:hover { color: black;}
 
 body { text-align: center; }
 
-body {background: orange;);
+body {background: black;);
 	animation: gradient 8s ease infinite; 	background-size: 400% 400%;
 }
 
