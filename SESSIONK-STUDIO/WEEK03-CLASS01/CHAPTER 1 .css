@@ -1,34 +1,30 @@
 
 .BOOKTITLE { 
-width:850px; color:white; text-align: center; }
+width:1400px; color:white;  font-family: 'Bebas Neue', cursive; letter-spacing: 15px;}
 
 
-body {font-family: 'IM Fell English SC', serif;, sans-serif; color:black; 
-letter-spacing: -0.5px; text-align: center;color:white;}
+body {font-family: 'Bebas Neue', cursive; color:black; 
+letter-spacing: +0.5px; text-align: center;color:white;
+font-size: 30px;}
 
 body {background: linear-gradient(-45deg, #976DA1, #6D7AA1, #6D9FA1, #A16D84);
 	animation: gradient 1s ease infinite; 	background-size: 400% 400%;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
 }
 strong {color:#EAD1DC; }
 ol {color:#C7CCDD;  list-style: inside;}
 ul {color:#C7CCDD; list-style: inside; }
 
-.BODYORG {width:850px; border-style: solid;
+.BODYORG {width:1000px; border-style: solid;
   border-width: 10px;
-  border-color:transparent;}
+  border-color:transparent;
+text-align: center;}
 
-.BODYORGg {width:900px; border-style: solid;
+.BODYORGg {width:1040px; border-style: solid;
   border-width: 2px;
   border-color:white;}
