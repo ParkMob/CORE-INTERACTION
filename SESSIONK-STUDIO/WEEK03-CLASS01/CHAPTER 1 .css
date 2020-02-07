@@ -1,20 +1,14 @@
 
 .BOOKTITLE { 
-width:1400px; color:white;  font-family: 'Bebas Neue', cursive; letter-spacing: 15px;}
+width:1400px; color:white;}
 
 
-body {font-family: 'Bebas Neue', cursive; color:black; 
-letter-spacing: +0.5px; text-align: center;color:white;
-font-size: 30px;}
+body {color:black; 
+text-align: center;color:white;}
 
-body {background: linear-gradient(-45deg, #976DA1, #6D7AA1, #6D9FA1, #A16D84);
-	animation: gradient 1s ease infinite; 	background-size: 400% 400%;
+body {background: black
 }
 
-@keyframes gradient {
-	0% {background-position: 0% 50%}
-	50% {background-position: 100% 50%;}
-	100% {background-position: 0% 50%;}
 }
 strong {color:#EAD1DC; }
 ol {color:#C7CCDD;  list-style: inside;}
