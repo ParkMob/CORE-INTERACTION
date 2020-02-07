@@ -59,4 +59,25 @@ position: relative;
 top: 20px; 
 left: 0px;
  letter-spacing: 3px}
+
+
+
+
+
+
+
+
+
+
+.icon_img{ width:25px; padding-top:10px; padding-left:10px; }
+
+.nav{
+	width:99%;
+	display:flex;
+	position:fixed;
+	background-color:white;}
+
+.PAGENAME{ text-align:center; }
+
+
   
