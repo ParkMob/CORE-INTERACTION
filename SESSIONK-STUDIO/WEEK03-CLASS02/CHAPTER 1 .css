@@ -3,10 +3,13 @@
 width:1400px; color:white;  font-family: 'Bebas Neue', cursive; letter-spacing: 15px;}
 
 
+
 body {font-family: 'Bebas Neue', cursive; color:black; 
 letter-spacing: +0.5px; text-align: center;color:white;
 font-size: 30px;
-line-height: 25px;}
+line-height: 28px;}
+
+.BOOKTITLE {line-height: 35px;}
 
 body {background: linear-gradient(-45deg, #976DA1, #6D7AA1, #6D9FA1, #A16D84);
 	animation: gradient 1s ease infinite; 	background-size: 400% 400%;
