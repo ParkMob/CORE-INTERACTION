@@ -1,15 +1,62 @@
 
 
-h1 { color: WHITE; }
-
-body { background-color: #FFA900; }
-
 a { color:orange; }
 
 a:hover { color: black;}
 
-body { text-align: center; }
 
-body {background: orange;);
-	animation: gradient 8s ease infinite; 	background-size: 400% 400%;
+
+.ALL { 
+	position: relative; ;
+	top: -1150px; }
+
+body {background: orange; 
+	text-align: center;
 }
+
+
+.BGT
+{color:white;
+font-size:500px;
+position: relative;
+	top: -200px; }
+
+
+.TITLE1 {background-color:black; 
+	width:800px;
+
+
+}
+
+	.TITLE2 {background-color:black; 
+	width:800px;
+height: 90px}
+
+.WEEKS { background-color:#F3F3F3; 
+	width:800px;}
+
+.TITLETEXT2 {
+	color: white ;
+position: relative;
+top: 45px; 
+left: 0px;
+ letter-spacing: 3px}
+
+.TITLETEXT1 {
+	font-family: 'Reenie Beanie', cursive;
+	color: orange;}
+
+.TITLETEXT4 {	font-family: 'Reenie Beanie', cursive;
+	color: orange;; 
+position: relative;
+top: -25px; 
+
+}
+
+
+.TITLETEXT3 { 	color: white ;
+position: relative;
+top: 20px; 
+left: 0px;
+ letter-spacing: 3px}
+  
