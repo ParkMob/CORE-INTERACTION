@@ -1,0 +1,56 @@
+/* Set box-sizing to border-box for all elements */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* write your css here! */
+#container {  }
+
+#my-header {}
+
+h5{font-family: 'Bebas Neue', cursive; 
+color:#008080;
+font-size: 18px;}
+
+h3 {font-family: 'Bebas Neue', cursive; 
+font-size: 30px;}
+
+h4{font-family: 'Bebas Neue', cursive; 
+color:#6F6F6F;
+font-size:23px;}
+
+
+h1{font-family: 'Bebas Neue', cursive;
+font-size:40px;
+margin:
+color: #3333;}
+
+p{font-family: 'Lato', sans-serif;
+
+
+font-weight:300;}
+
+ul {list-style:none;}
+a {color:gray;}
+
+
+.placeholder { 
+	height: 200px; width: 200px;
+	background-color:#008080;
+	-webkit-box-shadow: 17px 18px 0px 2px #B36800;
+	-moz-box-shadow: 17px 18px 0px 2px #B36800;
+	box-shadow: 17px 18px 0px 2px #B36800; 
+  text-align: center; 
+margin: ;}
+
+  .section-break { height: 5px;
+  width: 175px ; 
+  background-color: #008080; }
+/* Fonts: I use 'Lato' for body copy and 'Bebas Neue' for headers. 
+These fonts are already loaded for you in the HTML. */
