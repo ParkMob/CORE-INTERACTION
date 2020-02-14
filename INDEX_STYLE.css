@@ -8,7 +8,7 @@ a:hover { color: black;}
 
 .ALL { 
 	position: relative; ;
-	top: -1150px; }
+	 }
 
 body {background: orange; 
 	text-align: center;
@@ -18,8 +18,10 @@ body {background: orange;
 .BGT
 {color:white;
 font-size:500px;
-position: relative;
-	top: -200px; }
+position: absolute;
+	top: -50px; 
+	left: 100px;
+	font-family: 'Megrim', cursive;}
 
 
 .TITLE1 {background-color:black; 
@@ -33,51 +35,41 @@ position: relative;
 height: 90px}
 
 .WEEKS { background-color:white; 
-	width:800px;}
+	width:800px;
+}
 
-.TITLETEXT2 {
+.TITLETEXT2 {font-family: 'Carrois Gothic SC', sans-serif;
 	color: white ;
 position: relative;
 top: 45px; 
 left: 0px;
- letter-spacing: 3px}
+ letter-spacing: 3px
+}
 
 .TITLETEXT1 {
 	font-family: 'Reenie Beanie', cursive;
 	color: orange;}
 
-.TITLETEXT4 {	font-family: 'Reenie Beanie', cursive;
-	color: orange;; 
+.TITLETEXT4 {		
+	font-family: 'Carrois Gothic SC', sans-serif;
+	color: white ;
 position: relative;
-top: -25px; 
+top: -35px; 
+left: 0px;
+ letter-spacing: 3px;
+
 
 }
 
 
-.TITLETEXT3 { 	color: white ;
+.TITLETEXT3 { font-family: 'Reenie Beanie', cursive;
+	color: orange;; 
 position: relative;
-top: 20px; 
-left: 0px;
- letter-spacing: 3px}
+top: 37px; }
 
 
 
 
-
-
-
-
-
-
-.icon_img{ width:25px; padding-top:10px; padding-left:10px; }
-
-.nav{
-	width:99%;
-	display:flex;
-	position:fixed;
-	background-color:white;}
-
-.PAGENAME{ text-align:center; }
 
 
   
