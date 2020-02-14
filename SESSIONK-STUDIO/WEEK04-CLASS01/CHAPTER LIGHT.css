@@ -5,13 +5,15 @@ width:1400px; color:gray;  font-family: 'Bebas Neue', cursive; letter-spacing: 1
 
 .nav{
   width:99%;
-  display:flex;
-  position:fixed;
-  background-color:white;}
+  background-color:white;
+ position: absolute;
+        left: 20px;
+        top: 4000px;
+        color: white;}
 
 .PAGENAME{ text-align:center; }
 
-h1 {color:black;}
+h1 {color:white;}
 
 
 body {font-family: 'Bebas Neue', cursive; 
@@ -22,7 +24,10 @@ font-size: 30px;
 line-height: 28px;
 }
 
-.BOOKTITLE {line-height: 35px;}
+.BOOKTITLE {line-height: 35px;
+ position: absolute;
+
+        top:10px;}
 
 body {background-color: black}
 
@@ -40,7 +45,8 @@ padding-right: 50px;
 padding-left: 50px;
  position: absolute;
         left: 700px;
-        top: 50px;}
+        top: 50px;
+}
 
   .P2
   {width:1200px; border-style: solid;
@@ -51,7 +57,8 @@ padding-right: 50px;
 padding-left: 50px;
  position: absolute;
         left: 100px;
-        top: 400px;}
+        top: 400px;
+      background-color: black}
 
   .P3
   {width:1200px; border-style: solid;
@@ -62,7 +69,8 @@ padding-right: 50px;
 padding-left: 50px;
  position: absolute;
         left: 500px;
-        top: 700px;}
+        top: 700px;
+      background-color: black}
 
   .P4
   {width:1200px; border-style: solid;
@@ -73,7 +81,8 @@ padding-right: 50px;
 padding-left: 50px;
  position: absolute;
         left: 200px;
-        top: 900px;}
+        top: 1400px;
+      background-color: black}
 
   .P5
   {width:1200px; border-style: solid;
@@ -84,7 +93,8 @@ padding-right: 50px;
 padding-left: 50px;
  position: absolute;
         left: 700px;
-        top: 1200px;}
+        top: 1800px;
+      background-color: black}
 
 
   .P6
@@ -96,7 +106,8 @@ padding-right: 50px;
 padding-left: 50px;
  position: absolute;
         left: 100px;
-        top: 1600px;}
+        top: 2100px;
+      background-color: black}
 
 
   .P7
@@ -107,7 +118,8 @@ text-align:center;padding-right: 50px;
 padding-left: 50px;
  position: absolute;
 
-        top: 2000px;}
+        top: 2500px;
+      background-color: black}
 
   .P8
   {width:1200px; border-style: solid;
@@ -118,4 +130,5 @@ padding-left: 50px;
 padding-bottom: 30px;
  position: absolute;
         left: 700px;
-        top: 2600px;}
+        top: 3200px;
+      background-color: black}
