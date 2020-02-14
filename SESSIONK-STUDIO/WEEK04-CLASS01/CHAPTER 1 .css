@@ -32,3 +32,15 @@ text-align: center;}
 .BODYORGg {width:1200px; border-style: solid;
   border-width: 2px;
   border-color:white;}
+
+  .icon_img{ width:25px; padding-top:10px; padding-left:10px; }
+
+.nav{
+	width:99%;
+	display:flex;
+	position:fixed;
+	background-color:white;}
+
+.PAGENAME{ text-align:center; }
+
+h1 {color:black;}

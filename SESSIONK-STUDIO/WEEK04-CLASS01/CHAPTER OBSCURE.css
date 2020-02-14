@@ -3,7 +3,17 @@
 width:1400px; color:gray;  font-family: 'Bebas Neue', cursive; letter-spacing: 15px;}
 
 
+  .icon_img{ width:25px; padding-top:10px; padding-left:10px; }
 
+.nav{
+	width:99%;
+	display:flex;
+	position:fixed;
+	background-color:white;}
+
+.PAGENAME{ text-align:center; }
+
+h1 {color:black;}
 body {font-family: 'Bebas Neue', cursive; 
 letter-spacing: +0.5px; 
 text-align: center;
