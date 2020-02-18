@@ -1,25 +1,38 @@
 
 h1 {color:white;
-font-family: 'Bebas Neue', cursive;}
+font-family: 'Julius Sans One', sans-serif;
+font-size: 50px;
+letter-spacing: 9px;
+position: relative;
+  top:30px;}
 
 h2 {color:white;
-font-family: 'Bebas Neue', cursive;}
+font-family: 'Julius Sans One', sans-serif;}
 
 body {background-color:#181818;
-letter-spacing: -0.1px; 
+letter-spacing: 0px; 
 text-align:left;
-font-size: 19px;
-line-height: 20px;}
+font-size: 15px;
+line-height: 20px;
+font-family: 'Julius Sans One', sans-serif}
 
 a { color:#181818;}
 a:hover { color:white;}
 
+.NAV
+{ width:205;
+  display:flex;
+  top: 50px;
+  left: 50px;
+  position:fixed;
+background-color:white;
+z-index: 999;}
 
 .PAL
 {padding-top: 30px;
 padding-bottom: 40px;
-padding-left: 30px;
-width: 1050px; 
+padding-left: 40px;
+width: 1100px; 
 margin: 0 auto;
 }
 
@@ -27,46 +40,110 @@ margin: 0 auto;
 color: #ECECEC;}
 
 
-.POINT
-{padding-top: 20px;
-padding-bottom: 30px;
-width: 1050px; 
-margin: 0 auto;
-
-text-align:center;}
 
 
 .TITLE
 {padding-top: 20px;
 padding-bottom: 30px;
-width: 1050px; 
+width: 1100px; 
 margin: 0 auto;
 
 text-align:center;}
 
 .PARAGRAPH1
-{color:#ECECEC;}
+{color:#ECECEC;
+
+border-style: solid;
+border-width: 1px;
+border-color:#ECECEC;}
 
 .PARAGRAPH2
-{color:#C7C7C7;}
+{ position: relative;
+  top:20px;
+color:#C7C7C7;
+
+border-style: solid;
+border-width: 1px;
+border-color:#C7C7C7;}
 
 .PARAGRAPH3
-{color:#A3A3A3;}
+{position: relative;
+  top:40px;
+
+  color:#A3A3A3;
+border-style: solid;
+border-width: 1px;
+border-color:#A3A3A3;}
+
+.POINT
+{position: relative;
+  top:50px;
+
+padding-top: 20px;
+padding-bottom: 30px;
+width: 1100px; 
+margin: 0 auto;
+
+text-align:center;}
 
 .PARAGRAPH4
-{color:#C7C7C7;}
+{position: relative;
+  top:60px;
+  color:#C7C7C7;
+border-style: solid;
+border-width: 1px;
+border-color:#C7C7C7;}
 
 .PARAGRAPH5
-{color:#7C7C7C;}
+{position: relative;
+  top:80px;
+  color:#7C7C7C;
+border-style: solid;
+border-width: 1px;
+border-color:#7C7C7C;}
 
 .PARAGRAPH6
-{color:#585858;}
+{position: relative;
+  top:100px;
+  color:#585858;
+border-style: solid;
+border-width: 1px;
+border-color:#585858;}
 
 .PARAGRAPH7
-{color:#3C3C3C;}
+{position: relative;
+  top:120px;
+  color:#3C3C3C;
+border-style: solid;
+border-width: 1px;
+border-color:#3C3C3C;}
 
 .PARAGRAPH8
-{color:#252525;}
+{position: relative;
+  top:140px;
+
+  color:#252525;
+border-style: solid;
+border-width: 1px;
+border-color:#252525;}
 
 .PARAGRAPH9
-{color:#181818;}
+{position: relative;
+  top:160px;
+
+  color:#181818;
+border-style: solid;
+border-width: 1px;
+border-color:#181818;}
+
+.NEXT
+{position: relative;
+  top:180px;
+
+  color:#181818;
+border-style: solid;
+border-width: 1px;
+border-color:#181818;}
+
+
+
