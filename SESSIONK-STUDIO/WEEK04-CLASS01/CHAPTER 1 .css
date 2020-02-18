@@ -1,15 +1,45 @@
 
+
+
+
+
+.NAV {
+  width:100%;
+  height: 130px;
+position:fixed;
+z-index: 999;
+display:flex;
+top:100px;
+}
+
+.nav_cat {
+padding-top: 20px;
+text-align: left;
+padding-left: 20px;
+float:left;
+font-family: 'Bebas Neue', cursive;}
+
+
+
 .BOOKTITLE { 
-width:1400px; color:white;  font-family: 'Bebas Neue', cursive; letter-spacing: 15px;}
+width:1400px; 
+color:white;  
+font-family: 'Bebas Neue', cursive; 
+letter-spacing: 15px;
+line-height: 35px;
+width:1200px; 
+margin: 0 auto;}
 
 
 
-body {font-family: 'Anton', sans-serif; color:black; 
+body {font-family: 'Bebas Neue', cursive;
 letter-spacing: +0.5px; text-align: center;color:white;
 font-size: 30px;
 line-height: 28px;}
 
-.BOOKTITLE {line-height: 35px;}
+a { color:white;}
+a:hover { color:#EAD1DC;}
+
 
 body {background: linear-gradient(-45deg, #976DA1, #6D7AA1, #6D9FA1, #A16D84);
 	animation: gradient 3s ease infinite; 	background-size: 400% 400%;
@@ -27,20 +57,13 @@ ul {color:#EAD1DC; list-style: inside; }
 .BODYORG {width:1000px; border-style: solid;
   border-width: 10px;
   border-color:transparent;
-text-align: center;}
+text-align: center;
+margin: 0 auto;}
 
-.BODYORGg {width:1200px; border-style: solid;
+.BODYORGG {width:1200px; border-style: solid;
   border-width: 2px;
-  border-color:white;}
+  border-color:white;
+margin: 0 auto;}
 
-  .icon_img{ width:25px; padding-top:10px; padding-left:10px; }
 
-.nav{
-	width:99%;
-	display:flex;
-	position:fixed;
-	background-color:white;}
 
-.PAGENAME{ text-align:center; }
-
-h1 {color:black;}
