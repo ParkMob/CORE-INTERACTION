@@ -1,0 +1,91 @@
+
+.BOOKTITLE { 
+width:1400px; color:black;  font-family: 'Bebas Neue', cursive; letter-spacing: 15px;}
+
+
+  .icon_img{ width:25px; padding-top:10px; padding-left:10px; }
+
+
+.PAGENAME{ text-align:left; }
+
+h1 {color:black;}
+body {font-family: 'Bebas Neue', cursive; 
+letter-spacing: +0.5px; 
+text-align: center;
+color:GRAY;
+font-size: 30px;
+line-height: 28px;}
+
+.BOOKTITLE {line-height: 35px;}
+
+body {background: white}
+
+strong {color:darkgray; }
+ol {color:darkgray;  list-style: inside;}
+ul {color:orange; list-style: inside; }
+
+
+  .P1 
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+text-align:center;
+padding-right: 50px;
+padding-left: 50px;}
+
+  .P2
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+text-align:center;
+padding-right: 50px;
+padding-left: 50px;}
+
+  .P3
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+text-align:center;
+padding-right: 50px;
+padding-left: 50px;}
+
+  .P4
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+text-align:center;
+padding-right: 50px;
+padding-left: 50px;}
+
+  .P5
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+text-align:center;
+padding-right: 50px;
+padding-left: 50px;}
+
+
+  .P6
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+text-align:center;
+padding-right: 50px;
+padding-left: 50px;}
+
+
+  .P7
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+text-align:center;padding-right: 50px;
+padding-left: 50px;}
+
+  .P8
+  {width:1200px; border-style: solid;
+  border-width: 2px;
+  border-color:gray;
+  padding-right: 50px;
+padding-left: 50px;
+padding-bottom: 30px;}
