@@ -16,21 +16,25 @@ border-color:#181818;}
 .nav_cat {
 text-align: left;
 padding-left: 20px;
-float:left;}
+float:left;
+font-family: 'Bebas Neue', cursive;
+line-height: 25px;
+font-size:25px;}
 
 .BOOKTITLE {
 font-family: 'Bebas Neue', cursive;
 float:right;
 padding-right:60px;
+
 }
 
 
 
-body {font-family: 'Bebas Neue', cursive; 
-letter-spacing: +0.5px; 
+body {font-family: 'Cormorant Garamond', serif;
+letter-spacing: -0.3px; 
 color:gray;
-font-size: 30px;
-line-height: 28px;}
+font-size: 20px;
+line-height: 20px;}
 
 strong {color:darkgray; }
 ol {color:darkgray;  list-style: inside;}
@@ -48,7 +52,7 @@ margin: 0 auto;
 }
 
 .P1
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
@@ -59,7 +63,7 @@ border-color:#C7C7C7;
 }
 
 .P2
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
@@ -70,7 +74,7 @@ border-color:#C7C7C7;
 }
 
 .P3
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
@@ -81,7 +85,7 @@ border-color:#C7C7C7;
 }
 
 .P4
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
@@ -92,7 +96,7 @@ border-color:#C7C7C7;
 }
 
 .P5
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
@@ -103,7 +107,7 @@ border-color:#C7C7C7;
 }
 
 .P6
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
@@ -114,7 +118,7 @@ border-color:#C7C7C7;
 }
 
 .P7
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
@@ -126,7 +130,7 @@ border-color:#C7C7C7;
 
 
 .P8
-{ width:1300px;
+{ width:1000px;
   position: relative;
   top:20px;
 color:#C7C7C7;
