@@ -8,12 +8,14 @@ top:-100px;
 .ONE
 {position: relative;
 	left: 20%;
-top:400px;}
+top:400px;
+z-index: 989;}
 
 .TWO
 {position: relative;
 	left: 50%;
-top:600px;}
+top:600px;
+z-index: 987;}
 
 .THREE
 {position: relative;
