@@ -1,5 +1,76 @@
 body {background-color: #E97E75;}
-.ALL {width:250px;
+.ANIMAL {width:250px;
 position: relative;
 left: 45%;
+top:-100px;
 }
+
+.ONE
+{position: relative;
+	left: 20%;
+top:400px;}
+
+.TWO
+{position: relative;
+	left: 50%;
+top:600px;}
+
+.THREE
+{position: relative;
+	left: 10%;
+top:1000px;
+z-index: 999;}
+
+.FOUR
+{position: relative;
+	left: 10%;
+top:1400px;
+z-index: 998;}
+
+.FIVE
+{position: relative;
+	left:-40%;
+top:1800px;
+z-index: 997;}
+
+.SIX
+{position: relative;
+	left:-20%;
+top:2200px;
+z-index: 996;}
+
+.SEVEN
+{position: relative;
+	left: 20%;
+top:2600px;
+z-index: 995;}
+
+.EIGHT
+{position: relative;
+	left: 50%;
+top:3000px;
+z-index: 994;}
+
+.NINE
+{position: relative;
+	left: 10%;
+top:3400px;
+z-index: 993;}
+
+.TEN
+{position: relative;
+	left: 10%;
+top:3800px;
+z-index: 992;}
+
+.ELEVEN
+{position: relative;
+	left:-40%;
+top:4200px;
+z-index: 991;}
+
+.TWELVE
+{position: relative;
+	left:-20%;
+top:4600px;
+z-index: 990;}
