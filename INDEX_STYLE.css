@@ -6,66 +6,75 @@ a:hover { color: black;}
 
 
 
-.ALL { 
-	position: relative; ;
-	 }
+
 
 body {background: orange; 
-	text-align: center;
-}
+	text-align: center;}
 
 
-.BGT
+.NAME
 {color:white;
 font-size:500px;
+font-family: 'Megrim', cursive;
 position: absolute;
-	top: -50px; 
-	left: 100px;
-	font-family: 'Megrim', cursive;}
-
-
-.TITLE1 {background-color:black; 
-	width:800px;
-
-
+left:20px;
+right:20px;
+line-height: 470px
 }
 
-	.TITLE2 {background-color:black; 
-	width:800px;
-height: 90px}
+.ALL { 
+	position: relative; 
+	margin:0 auto;
+	top:20px;
+	}
 
-.WEEKS { background-color:white; 
-	width:800px;
+
+.TITLESPACE {
+background-color:black; 
+width:800px;
+margin:0 auto;
+position:relative;
 }
 
-.TITLETEXT2 {font-family: 'Carrois Gothic SC', sans-serif;
-	color: white ;
-position: relative;
-top: 45px; 
-left: 0px;
- letter-spacing: 3px
+.WEEKS { 
+background-color:white; 
+width:800px;
+margin:0 auto;
+position:relative;
+top:-40px;
 }
 
 .TITLETEXT1 {
-	font-family: 'Reenie Beanie', cursive;
-	color: orange;}
-
-.TITLETEXT4 {		
-	font-family: 'Carrois Gothic SC', sans-serif;
-	color: white ;
+font-family: 'Carrois Gothic SC', sans-serif;
+color: white ;
 position: relative;
-top: -35px; 
-left: 0px;
- letter-spacing: 3px;
+top:20px;
+letter-spacing: 3px
+}
 
-
+.TITLETEXT2 {
+font-family: 'Reenie Beanie', cursive;
+color: orange;
+position: relative;
+top:-25px;
 }
 
 
-.TITLETEXT3 { font-family: 'Reenie Beanie', cursive;
-	color: orange;; 
+.TITLETEXT3 {		
+font-family: 'Carrois Gothic SC', sans-serif;
+color: white ;
 position: relative;
-top: 37px; }
+top:20px; 
+letter-spacing: 3px;
+}
+
+
+.TITLETEXT4 { 
+font-family: 'Reenie Beanie', cursive;
+color: orange;; 
+position: relative;
+top: -25px; 
+}
 
 
 
