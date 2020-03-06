@@ -1,0 +1,320 @@
+body {
+  background: #313654;
+}
+
+
+.COMPUTER
+
+
+.BOOKSELF
+
+.DESK
+
+.PAINTING
+
+
+.WORKING
+
+
+
+
+
+
+
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+
+.TOY {
+  position: relative;
+  width: 133px;
+  height: 126px;
+}
+
+
+
+.TOY .ear {
+  position: absolute;
+  top: -10;
+  width: 30px;
+  height: 30px;
+  border: 5px solid white;
+  border-radius: 100%;;
+}
+
+.TOY .ear.left {
+  left: 1px;
+}
+
+.TOY .ear.right {
+  right: 1px;
+}
+
+.TOY .face {
+  position: absolute;
+  bottom: 0;
+  width: 133px;
+  height: 122px;
+  border-radius: 100%;
+  border: 5px solid white;
+  background-color:#313654;
+  left: -6px;
+}
+
+.TOY .eyebrow {
+  position: absolute;
+  top: 35px;
+  width: 26px;
+  height: 5px;
+  border-radius: 3px;
+  background: white;
+  transition: all 0.2s;
+}
+
+.TOY .eyebrow.left {
+  left: 22px;
+}
+
+.TOY .eyebrow.right {
+  right: 22px;
+}
+
+.TOY .eye {
+  position: absolute;
+  top: 49px;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background:white;
+  transition: all 0.2s;
+}
+
+.TOY .eye.left {
+  left: 32px;
+}
+
+.TOY .eye.right {
+  right: 32px;
+}
+
+.TOY .nose {
+  position: absolute;
+  top: 61px;
+  left: 50%;
+  margin-left: -7px;
+  width: 11px;
+  height: 11px;
+  border-radius: 80% 80% 100% 100%;
+  background: #000;
+  z-index: 2;
+}
+
+.TOY .mouth {
+  position: absolute;
+  top: 64px;
+  right: 24px;
+  width: 24px;
+  height: 23px;
+  border: 4px solid white;
+  border-radius: 50%;
+  background: white;
+}
+.TOY .mouth.left {
+  left: 42px;
+}
+
+.TOY .mouth.right {
+  right: 42px;
+}
+
+
+
+
+
+.WINDOW {
+  position: relative;
+  width: 205px;
+  height: 364px;
+  border: 5px solid white;
+  background-color:#2B2D3A;
+transform:skew(0deg,3deg);}
+
+.PART1
+{  position: absolute;
+  width: 100px;
+  height: 180px;
+  border: 3px solid white;}
+.PART2
+{  position: absolute;
+  width: 100px;
+  height: 180px;
+  border: 3px solid white;
+left: 100px;}
+.PART3
+{  position: absolute;
+  width: 100px;
+  height: 180px;
+  border: 3px solid white;
+top: 180px;}
+.PART4
+{  position: absolute;
+  width: 100px;
+  height: 180px;
+  border: 3px solid white;
+top: 180px;
+left: 100px;}
+
+.MOON
+{ position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  left:13px;
+  top:50px;
+}
+
+.MOONBLANK
+{ position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left:42px;
+  top:50px;
+    background-color:#2B2D3A;
+}
+
+
+
+
+
+
+.RESTING {
+  position: relative;
+  width: 400px;
+  height: 300px;}
+
+.BOXPT1
+{  position: absolute;
+  width: 370px;
+  height: 100px;
+  border: 4px solid white;
+  transform:skew(-45deg,3deg);
+    background-color: #313654;
+}
+.BOXPT2
+{  position: absolute;
+  width: 370px;
+  height: 200px;
+  border: 4px solid white;
+  transform:skew(0deg,3deg);
+  top:106px;
+  left:-53px;
+      background-color: #313654;
+}
+.BOXPT3
+{  position: absolute;
+  width: 100px;
+  height: 200px;
+  border: 4px solid white;
+  transform:skew(0deg,-45deg);
+  top:63px;
+  left:324px;
+      background-color: #313654;
+}
+
+
+
+
+
+
+.PAINTING
+ {position: relative;
+  width: 250px;
+  height: 400px;}
+
+.SIDET {
+  position: absolute;
+  margin: 50px auto;
+  width: 230px;
+  height: 10px;
+  border: 4px solid white;
+  transform:skew(-45deg,3deg);
+background-color:#313654;}
+
+.FRAME {
+  position: absolute;
+  margin: 50px auto;
+  width: 230px;
+  height: 300px;
+  border: 4px solid white;
+  top:16px;
+  left:-8px;
+transform:skew(0deg,3deg);
+background-color:#313654;}
+
+.SIDER {
+  position: absolute;
+  margin: 50px auto;
+  width: 10px;
+  height: 300px;
+  border: 4px solid white;
+  transform:skew(0deg,-45deg);
+left:228px;
+top:15px;
+background-color:#313654;}
+
+
+
+
+
+.SHELF
+ {position:relative;
+  margin: 50px auto;
+  width: 400px;
+  height: 900px;}
+
+  .TOPSIDE
+  {position: absolute;
+  width: 320px;
+  height: 27px;
+  border: 2px solid white;
+  transform:skew(-100deg,-16deg);}
+
+  .DEEP
+  {position: absolute;
+  width: 170px;
+  height: 800px;
+  border: 2px solid white;
+  transform:skew(0deg,10deg);
+top:60px;
+left:-85px;}
+
+.SHELFFRAME
+{position: absolute;
+width: 320px;
+height: 800px;
+border: 2px solid white;
+transform:skew(0deg,-16deg);
+top:31px;
+left:83px;}
+
+
+.WINDOW
+{top:-1500px;
+left:1600;}
+.RESTING
+{top:-1400px;
+left:1450px;}
+.PAINTING
+{top:-2200px;
+left:2000px;}
+
+.TOY
+{top:-1000px;
+left:1900px;}
+
+
+  //기본코드 margin: 50px auto;
