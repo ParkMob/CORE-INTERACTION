@@ -30,7 +30,7 @@
 <body>
 
 <div class="NAME">
-YEOJIN</br>PARK</div>
+YEOJIN</br>P&nbspA&nbspR&nbspK</div>
 
 <div class="ALL">
 
@@ -131,17 +131,45 @@ YEOJIN</br>PARK</div>
 		</br></br>
 
 		WEEK 06 - </a> 
-			    <!-- html content here -->
-	    <button onClick="handleClick()">BUTTON</button>
 
-		    <script>
-		      var items = document.querySelectorAll('.item');
+<div class="buttonbox">
 
-		      items.forEach((item, i) => {
-		        var randomGenerator = Math.round(Math.random() * items.length);
-		        item.innerHTML = `<img src="images/image-${randomGenerator}.jpg" class="image"/>`;
-		      });
-		    </script>
+<button onClick="handleClick()">YOU-HAVE</button></div>
+
+<Br>
+
+
+	<div id="TIMELEFT"></div>
+<br>
+<br>
+<br>
+
+<script type="text/javascript">
+window.onclick = function() { 
+
+			var TIMELEFT = document.getElementById("TIMELEFT");
+			
+			var CHOICE = [ "1 YEAR","2 YEARS","3 YEARS","4 YEARS","5Y EARS","6 YEARS","7 YEARS","8 YEARS","9 YEARS","10 YEARS","11 YEARS","12 YEARS","13 YEARS","14 YEARS","15 YEARS","16 YEARS","17 YEARS","18 YEARS","19 YEARS","20 YEARS","21 YEARS","22 YEARS","23 YEARS","24 YEARS","25 YEARS","26 YEARS","27 YEARS","28 YEARS","29 YEARS","30 YEARS","31 YEARS","32 YEARS","33 YEARS"];
+			
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;}
+
+			function generate(){ 
+				var selected_one = select_random(line_one);
+				CHOICE = selected_one;
+			}
+
+			document.getElementById('buttonbox').onclick =function(){
+
+				console.log('YOUHAVE');
+				generate();
+			};
+
+			generate();
+	
+		}
+	</script>
 
 		</br></br></br>
 	</div>
