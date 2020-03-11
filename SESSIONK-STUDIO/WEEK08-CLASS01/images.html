@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CATS</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      .cat_image {
+        width: 700px;
+               position:relative;
+
+      }
+      
+      button {
+        display:block;
+        position:relative;
+        bottom:150px;
+        color:white;
+        background-color:black;
+        cursor:pointer;
+        height: 50px;
+        width:200px;
+        font-size:20px;
+        border-width: 0px;
+      }
+    </style>
+
+    <!--   jquery hosted library   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div style="position:relative; background-color:orange; 
+    width:700px; margin-top:100px;">
+    <img class="cat_image" src=" " />
+
+    </div>
+    
+    <button>
+      A NEW CAT?
+    </button>
+ 
+    <script>
+      var images = [
+        "img/고영1.png",
+        "img/고영2.png",
+        "img/고영3.png",
+        "img/고영4.png",
+   
+      ];
+      
+      var image = $('.cat_image');
+      
+      function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			};
+      
+      function display_image() {
+        selected_image = select_random(images);
+        $('.cat_image').attr("src", selected_image);
+      }
+      
+      $(document).ready(function(){
+        display_image();
+        $('button').click(function(){
+          display_image();
+        });
+      });
+      
+    </script>
+  </body>
+</html>
+
