@@ -35,6 +35,7 @@ body{background-color:#f3f5e0;
           @media (max-width: 550px) {
             .LINE0 {
             color:orange;
+            background-color: #c7c0af;
                 }
               }
             
@@ -54,6 +55,7 @@ body{background-color:#f3f5e0;
      @media (max-width: 550px) {
         .LINE1 {
         color:#2d2d2d;
+        background-color: #c7c0af;
             }
           }
     
@@ -73,6 +75,7 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE2 {
     color:#2d2d2d;
+    background-color: #c7c0af;
         }
       }
 
@@ -95,6 +98,7 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE0 {
     color:gray;
+    background-color: #c7c0af;
         }
       }
 
@@ -115,6 +119,7 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE5 {
     color:orange;
+    background-color: #c7c0af;
         }
       }
 .LINE6 {
@@ -133,6 +138,7 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE6 {
     color:#2d2d2d;
+    background-color: #c7c0af;
         }
       }
 
@@ -157,6 +163,13 @@ left:900px;
 line-height:18px;
 letter-spacing: -1px;}
 
+@media (max-width: 550px) {
+    .C_SIDE1 {
+    color:#2d2d2d;
+        }
+      }
+
+
 
 .C_SIDE3 {
     width: 324px;
@@ -170,6 +183,12 @@ color: #071154;
 transform:skew(30deg,45deg);
 }
 
+@media (max-width: 550px) {
+    .C_SIDE3 {
+    color:gray;
+        }
+      }
+
 
 .C_SIDE5{
     position: relative;
@@ -182,6 +201,12 @@ transform:skew(30deg,45deg);
     margin-left:-150px;
     line-height:18px;
     letter-spacing: -1px;}
+    @media (max-width: 550px) {
+        .C_SIDE5 {
+        color:orange;
+            }
+          }
+    
 
   
 
