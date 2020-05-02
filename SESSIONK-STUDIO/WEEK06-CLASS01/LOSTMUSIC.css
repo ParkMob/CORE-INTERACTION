@@ -18,10 +18,6 @@ body {
 
 
 
-
-
-
-
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -280,14 +276,14 @@ background-color:#313654;}
   {position: absolute;
   width: 320px;
   height: 27px;
-  border: 2px solid white;
+  border: 4px solid white;
   transform:skew(-100deg,-16deg);}
 
   .DEEP
   {position: absolute;
   width: 170px;
   height: 800px;
-  border: 2px solid white;
+  border: 4px solid white;
   transform:skew(0deg,10deg);
 top:60px;
 left:-85px;}
@@ -296,25 +292,93 @@ left:-85px;}
 {position: absolute;
 width: 320px;
 height: 800px;
-border: 2px solid white;
+border: 4px solid white;
 transform:skew(0deg,-16deg);
 top:31px;
 left:83px;}
 
+.DESKTOP
+ {position:relative;
+  margin: 50px auto;
+  width: 300px;
+  height: 200px;
+border-style: solid;
+border-color:white;
+border-width: 1px;}
+
+.LAPSUPPORT
+{
+position: absolute;
+  width: 40px;
+  height: 60px;
+border-style: solid;
+border-color:white;
+border-width: 4px;
+margin-left:125px;
+margin-top:200px;
+transform:skew(0deg,-16deg)
+}
+
+
+.LAPFRAME
+{position: absolute;
+  width: 300px;
+  height: 200px;
+border-style: solid;
+border-color:white;
+border-width: 4px;
+transform:skew(0deg,-16deg);
+background-color:#313654;}
+
+.MONITER
+{position: absolute;
+  width: 250px;
+  height: 150px;
+border-style: solid;
+border-color:white;
+border-width: 4px;
+margin-left:25px;
+margin-top:25px;}
+
 
 .WINDOW
+{  margin: 50px auto;}
+
+.RESTING
+{  margin: 50px auto;}
+
+.PAINTING
+{  margin: 50px auto;}
+
+.TOY
+{  margin: 50px auto;}
+
+
+/* 만약 위 상위 엘레먼트를 추가할 경우 하위 앨러먼트가 밀리는 현상이 있으니 조율요망 
+or 이미지로 대체하던지 정하도록
+오토플레이기능 추천-연동하는 방법은 알아서 넣으라는 교수님
+새로운 창으로 이동하는 것으로 기능 수정(팝업창은 알아서 찾아보도록)
+
+TODO>
+자바스크립트 부분 - 이미지/텍스트 랜덤변경
+sort by> 자바스크립트 추가(제이쿼리가 더 편할지도) 
+솔직히 픽셀로 그리면 그것도 나름대로 css아니냐(아닙니다)
+제이쿼리가 더 짧았던것 같기는 한데 그냥 랜덤 제쿼리로 바꿔도 괜찮을듯*/
+
+/* .WINDOW
 {top:-1500px;
 left:1600;}
+
 .RESTING
 {top:-1400px;
 left:1450px;}
+
 .PAINTING
 {top:-2200px;
 left:2000px;}
 
 .TOY
 {top:-1000px;
-left:1900px;}
+left:1900px;} */
 
 
-  //기본코드 margin: 50px auto;

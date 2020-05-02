@@ -1,0 +1,171 @@
+
+body{background-color:#f3f5e0; 
+    font-family: 'Do Hyeon', sans-serif;}
+.LINESET
+{    margin:0 auto;
+    position: relative;}
+
+    h1 {
+        color: orange;
+      }
+      /* then, we override the orange ONLY when the condition below is met, 
+      changing the  color to blue on a small device */
+      @media (max-width: 550px) {
+        h1 {
+          color: blue;
+        }
+      }
+
+    .LINE0 {
+        transform: rotate(90deg);
+        font-size: 20px;
+        transform-origin: center left;
+        text-align:left;
+        position: relative;
+        left:100px;
+        color: #ff456f;
+            animation-duration: 13s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+            animation-delay: 0.5s;
+          }
+.LINE1 {
+    transform: rotate(90deg);
+    font-size: 50px;
+    transform-origin: center left;
+    text-align:left;
+    position: relative;
+    left:510px;
+    background-color:#f3f5e0;
+        animation-duration: 17s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        color: #071154;
+      }
+    
+.LINE2 {
+    
+    transform: rotate(90deg);
+    text-align:left;
+    transform-origin: center left;
+    position: relative;
+    left:600px;
+    background-color:#f3f5e0;
+    color: #071154;
+    animation-duration: 16s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+
+.LINE4 {
+        transform: rotate(90deg);
+        text-align:left;
+        transform-origin: center left;
+        position: relative;
+        left:900px;
+        background-color:#f3f5e0;
+        animation-duration: 9s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        color: orange;
+     
+
+
+ .LINE5 {
+
+            transform: rotate(90deg);
+            text-align:left;
+            transform-origin: center left;
+            position: relative;
+            left:480px;
+            top:-125px;
+            background-color:#f3f5e0;
+            color: #1d88a9;
+            animation-duration: 17s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+}
+.LINE6 {
+
+    transform: rotate(90deg);
+    text-align:left;
+    transform-origin: center left;
+    position: relative;
+    left:1500px;
+    background-color:#f3f5e0;
+    animation-duration: 18s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    color: #071154;
+}
+
+
+.shoot{
+    margin:0 auto;
+    width:1000px;
+    height:1000px;
+    position: relative;
+    top:100px;
+}
+
+.C_SIDE1{
+position: relative;
+width: 324px;
+color: #ff456f;
+text-align: justify;
+transform: rotate(45deg);
+position: absolute;
+top: 150px;
+left:900px;
+line-height:18px;
+letter-spacing: -1px;}
+
+
+.C_SIDE3 {
+    width: 324px;
+text-align:justify;
+transform: rotate(45deg);
+position:absolute;
+letter-spacing: -1px;
+margin-left:300px;
+line-height:18px;
+color: #071154;
+transform:skew(30deg,45deg);
+}
+
+
+.C_SIDE5{
+    position: relative;
+    width: 324px;
+    color: orange;
+    text-align: justify;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 300px;
+    margin-left:-150px;
+    line-height:18px;
+    letter-spacing: -1px;}
+
+  
+
+@keyframes slidein {
+    from {
+      top:0px;
+      width: 300%; 
+      opacity: 100%;
+    }
+  
+    to {
+ 
+      top: 1000px;
+      width: 100%;
+      opacity: 0%;
+
+    }
+  }
+
