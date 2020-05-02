@@ -1,20 +1,19 @@
-h1 {
-    color: orange;
-  }
-  /* then, we override the orange ONLY when the condition below is met, 
-  changing the  color to blue on a small device */
-  @media (max-width: 550px) {
-    h1 {
-      color: blue;
-    }
-  }
-
 
 .G {
     color: #071154;
   }
+
+
+  
 body{background-color:#f3f5e0; 
     font-family: 'Do Hyeon', sans-serif;}
+
+    @media (max-width: 550px) {
+        body {
+              background-color: #c7c0af;
+            }
+          }
+        
 .LINESET
 {    margin:0 auto;
     position: relative;}
@@ -32,6 +31,13 @@ body{background-color:#f3f5e0;
             animation-iteration-count: infinite;
             animation-delay: 0.5s;
           }
+
+          @media (max-width: 550px) {
+            .LINE0 {
+            color:orange;
+                }
+              }
+            
 .LINE1 {
     transform: rotate(90deg);
     font-size: 50px;
@@ -45,6 +51,11 @@ body{background-color:#f3f5e0;
         animation-iteration-count: infinite;
         animation-delay: 1s;
       }
+     @media (max-width: 550px) {
+        .LINE1 {
+        color:#2d2d2d;
+            }
+          }
     
 .LINE2 {
     
@@ -59,6 +70,11 @@ body{background-color:#f3f5e0;
     animation-iteration-count: infinite;
     animation-delay: 3s;
 }
+@media (max-width: 550px) {
+    .LINE2 {
+    color:#2d2d2d;
+        }
+      }
 
 
 .LINE4 {
@@ -76,6 +92,11 @@ body{background-color:#f3f5e0;
      
 
 }
+@media (max-width: 550px) {
+    .LINE0 {
+    color:gray;
+        }
+      }
 
  .LINE5 {
 
@@ -91,6 +112,11 @@ body{background-color:#f3f5e0;
             animation-name: slidein;
             animation-iteration-count: infinite;
 }
+@media (max-width: 550px) {
+    .LINE5 {
+    color:orange;
+        }
+      }
 .LINE6 {
 
     transform: rotate(90deg);
@@ -104,6 +130,11 @@ body{background-color:#f3f5e0;
     animation-iteration-count: infinite;
     animation-delay: 3s;
 }
+@media (max-width: 550px) {
+    .LINE6 {
+    color:#2d2d2d;
+        }
+      }
 
 
 .shoot{
