@@ -1,20 +1,23 @@
+h1 {
+    color: orange;
+  }
+  /* then, we override the orange ONLY when the condition below is met, 
+  changing the  color to blue on a small device */
+  @media (max-width: 550px) {
+    h1 {
+      color: blue;
+    }
+  }
 
+
+.G {
+    color: #071154;
+  }
 body{background-color:#f3f5e0; 
     font-family: 'Do Hyeon', sans-serif;}
 .LINESET
 {    margin:0 auto;
     position: relative;}
-
-    h1 {
-        color: orange;
-      }
-      /* then, we override the orange ONLY when the condition below is met, 
-      changing the  color to blue on a small device */
-      @media (max-width: 550px) {
-        h1 {
-          color: blue;
-        }
-      }
 
     .LINE0 {
         transform: rotate(90deg);
@@ -41,7 +44,6 @@ body{background-color:#f3f5e0;
         animation-name: slidein;
         animation-iteration-count: infinite;
         animation-delay: 1s;
-        color: #071154;
       }
     
 .LINE2 {
@@ -52,7 +54,6 @@ body{background-color:#f3f5e0;
     position: relative;
     left:600px;
     background-color:#f3f5e0;
-    color: #071154;
     animation-duration: 16s;
     animation-name: slidein;
     animation-iteration-count: infinite;
@@ -74,6 +75,7 @@ body{background-color:#f3f5e0;
         color: orange;
      
 
+}
 
  .LINE5 {
 
@@ -101,7 +103,6 @@ body{background-color:#f3f5e0;
     animation-name: slidein;
     animation-iteration-count: infinite;
     animation-delay: 3s;
-    color: #071154;
 }
 
 
