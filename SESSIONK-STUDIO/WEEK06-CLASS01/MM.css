@@ -35,7 +35,7 @@ body{background-color:#f3f5e0;
           @media (max-width: 550px) {
             .LINE0 {
             color:orange;
-            background-color: #c7c0af;
+
                 }
               }
             
@@ -46,7 +46,7 @@ body{background-color:#f3f5e0;
     text-align:left;
     position: relative;
     left:510px;
-    background-color:#f3f5e0;
+
         animation-duration: 17s;
         animation-name: slidein;
         animation-iteration-count: infinite;
@@ -66,7 +66,6 @@ body{background-color:#f3f5e0;
     transform-origin: center left;
     position: relative;
     left:600px;
-    background-color:#f3f5e0;
     animation-duration: 16s;
     animation-name: slidein;
     animation-iteration-count: infinite;
@@ -75,7 +74,7 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE2 {
     color:#2d2d2d;
-    background-color: #c7c0af;
+
         }
       }
 
@@ -86,7 +85,6 @@ body{background-color:#f3f5e0;
         transform-origin: center left;
         position: relative;
         left:900px;
-        background-color:#f3f5e0;
         animation-duration: 9s;
         animation-name: slidein;
         animation-iteration-count: infinite;
@@ -98,7 +96,6 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE0 {
     color:gray;
-    background-color: #c7c0af;
         }
       }
 
@@ -110,7 +107,7 @@ body{background-color:#f3f5e0;
             position: relative;
             left:480px;
             top:-125px;
-            background-color:#f3f5e0;
+
             color: #1d88a9;
             animation-duration: 17s;
             animation-name: slidein;
@@ -119,7 +116,7 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE5 {
     color:orange;
-    background-color: #c7c0af;
+
         }
       }
 .LINE6 {
@@ -129,7 +126,7 @@ body{background-color:#f3f5e0;
     transform-origin: center left;
     position: relative;
     left:1500px;
-    background-color:#f3f5e0;
+
     animation-duration: 18s;
     animation-name: slidein;
     animation-iteration-count: infinite;
@@ -138,7 +135,7 @@ body{background-color:#f3f5e0;
 @media (max-width: 550px) {
     .LINE6 {
     color:#2d2d2d;
-    background-color: #c7c0af;
+
         }
       }
 
