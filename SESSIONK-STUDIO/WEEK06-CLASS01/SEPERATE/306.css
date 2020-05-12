@@ -1,14 +1,77 @@
 body
 
 h1
-{color:red;}
+{color:lightcoral;
+font-size:40px;
+padding-left: 20px;}
 }
 
-.TOPBAR
-{background-color:purpl
-position:absolute;
-width:40px;
-height:20px;}
+
+
+
+.TEXT
+{color: lightcoral;
+position:relative;
+font-size: 20px;
+left:50px;}
+
+.titleonly
+{background-color: lightcoral;
+color:white;
+padding-left:5px;
+padding-right:8px;
+display: inline-block;
+position:relative;
+font-size: 20px;
+left:50px;}
+
+.info{
+    position:relative;
+    font-size: 20px;
+    left:50px;
+    color: lightcoral;}
 
 .LYRICS
-{background-color:gray;}
+{top:20px;
+    background-color:white;
+color:lightcoral;
+border-color:lightcoral;
+border-width:3px;  
+border-style:solid;
+overflow:scroll;
+width:200px; height:230px;
+padding-left:20px;
+padding-top:20px;
+padding-right:20px;
+padding-bottom:30px;
+position: relative;
+left:50px;}
+
+
+    .topspace
+    {width: 100%;
+    background-color:lightcoral;
+height: 50px;}
+
+.IMGC{
+    float: left;
+    border-style:solid;
+    border-color:lightcoral;
+border-width:4px;  
+padding:30px;
+max-width:310px;
+max-height:310px;
+overflow: hidden;
+margin-left:100px;
+}
+
+.all
+{position: relative;
+width:900px;
+border-style:solid;
+border-color:lightcoral;
+border-width:4px; 
+padding-bottom:100px;
+background color: white;
+}
+

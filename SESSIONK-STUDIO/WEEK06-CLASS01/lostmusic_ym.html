@@ -1,0 +1,197 @@
+<!DOCTYPE_html>
+
+<html>
+	<head>
+		<title>LOST MUSIC </title>
+        <link rel="stylesheet" type="text/css" href="LOSTMUSIC2.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+
+
+
+	<body>
+		<div class="space">
+		<img src="FRAME.png" alt="ROOM">
+		<div class="TOY">  
+		  <div class="ear left"></div>
+		  <div class="ear right"></div>
+		  <div class="face">
+		    <div class="eyebrow left"></div>
+		    <div class="eyebrow right"></div>
+		    <div class="eye left"></div>
+		    <div class="eye right"></div>
+		    <div class="nose"></div>
+		    <div class="mouth left"></div>
+		    <div class="mouth right"></div>
+		  </div>
+		</div>
+
+		<div class="WINDOW">  
+            <button>
+                <button>
+            <img src="window.png" alt="window"></button></div>
+
+		<div class="plant">  
+            <button>
+            <img src="plant.png" alt="plant"></button></div>
+
+		<div class="PAINTING">  
+            <button>
+            <img src="painting.png" alt="painting"></button></div>
+
+		<div class="SHELF">  
+            <button>
+            <img src="shelf.png" alt="shelf">
+            </button></div>
+
+		<div class="DESKTOP">  
+            <button>
+            <img src="laptop.png" alt="laptop">
+        </button>
+    </div>
+        
+     </div>
+            
+
+
+
+
+
+
+
+
+     <div class="all">
+		<div class="Topspace">
+		</div>
+
+
+		<div class="content">
+
+	<H1> CURRENTLY PLAYING : </H1>
+
+<div class="306"> 
+
+    <style>
+
+        
+        button {
+  
+          background-color:transparent;
+          cursor:pointer;
+          border-width: 0px;
+        }
+      </style>
+
+
+
+
+
+            <div style="position:relative; 
+            width:310px; ">
+            
+            <img class="cat_image" src=" " />
+        
+            </div>
+            <script>
+              var images = [
+                "img/사라지는 꿈 .jpg",
+                "img/소년점프.jpg",
+                "img/CLICKME.jpg",
+                "img/LOSE CONTROL.jpg",
+                "img/RATHER BE.jpg",
+                "img/SUNBUERNT THROUGH THE GLASS.png",
+                "img/2008 석관동.png",
+                "img/DO IT ALL THE TIME.png",
+                "img/YOUTH.jpg",
+                "img/POOLS.jpg",
+                "img/ADORABLE.png",
+           
+              ];
+              
+              var image = $('.cat_image');
+              
+              function select_random(x){
+                        y = x[Math.floor(Math.random()*x.length)];
+                        return y;
+                    };
+              
+              function display_image() {
+                selected_image = select_random(images);
+                $('.cat_image').attr("src", selected_image);
+              }
+              
+              $(document).ready(function(){
+                display_image();
+                $('button').click(function(){
+                  display_image();
+                });
+              });
+              
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+			<div class="TEXT"> 
+				<div class="titleonly"> 
+                    <script type="text/javascript"><!-- 
+                        var random=new Array(); 
+                    
+                        random[0]='마미손-소년점프'; 
+                        random[1]='SOD-사라지는 꿈'; 
+                        random[2]='HAZY'; 
+                        random[3]='YOUTH'; 
+                        random[4]='P00LS'; 
+                        random[5]='LAVI-ADORABLE'; 
+                        random[6]='LOSECONTROL'; 
+                    
+                    var id=Math.round(Math.random()*(random.length-1)); document.write(random[id]); </script>
+                    </div>
+				<div class="info">
+				TYPE : A <br>
+				LINK :
+                </div>
+			</div>
+			<div class="LYRICS">
+
+				나는 내가 보고 싶은<br> 
+				그대 모습을 보았네<br> 
+				그것이 결코 그대가 아님을<br> 
+				알지 못한채<br> 
+				나는 내가 보고 싶은<br> 
+				그대 모습을 보았네<br> 
+				그것이 결코 그대가 아님을<br> 
+				알지 못한채
+				<br>
+				나는 널 사랑했었나<br> 
+				나는 날 사랑했었나<br> 
+				이게 다 뭔 소용인가<br> 
+				결국 다 하는 헛소리<br> 
+				<br>
+				우리는 서로를 속이며 살아가는 사람<br> 
+				우리는 서로를 속이며 사랑하는 사람<br> 
+				<br>
+				우리는 서로를 속이며 살아가는 사람<br> 
+				우리는 서로를 속이며 사랑하는 사람<br> 
+			</div>
+        </div>
+        <div class ="audiospace">
+        <audio controls autoplay>
+            <source src="L'Indécis - Plethoria - 11 Soundscapes.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          </div>
+	</div>
+    </div>
+    
+
+
+	</body>
+	</html>
